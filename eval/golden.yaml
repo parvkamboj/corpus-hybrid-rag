@@ -1,0 +1,39 @@
+name: golden_v1
+
+# Each sample needs:
+#   query        — the question to ask
+#   ground_truth — the reference answer used for RAGAS scoring
+#   doc_ids      — optional list of doc UUIDs to scope retrieval (leave empty for global search)
+#
+# Replace the examples below with real queries derived from your ingested documents.
+
+samples:
+  - query: "What is the main purpose of this document?"
+    ground_truth: >
+      The document provides an overview of the key concepts, methods, and findings
+      relevant to the subject matter covered in the uploaded corpus.
+    doc_ids: []
+
+  - query: "What are the key findings or conclusions presented?"
+    ground_truth: >
+      The document presents several conclusions supported by evidence from the
+      analysis described within its sections.
+    doc_ids: []
+
+  - query: "What methodology or approach is described?"
+    ground_truth: >
+      The document describes a systematic methodology involving data collection,
+      analysis, and interpretation to support the stated objectives.
+    doc_ids: []
+
+  - query: "What recommendations or next steps are suggested?"
+    ground_truth: >
+      The document suggests actionable next steps and recommendations based on
+      the findings presented throughout the text.
+    doc_ids: []
+
+  - query: "What are the limitations or constraints discussed?"
+    ground_truth: >
+      The document acknowledges limitations including scope constraints, data
+      availability, and assumptions made during the analysis.
+    doc_ids: []
