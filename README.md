@@ -1,4 +1,4 @@
-# Corpus RAG
+# Corpus Hybrid RAG
 
 A backend RAG system I built to get hands-on with hybrid retrieval. The idea was to implement everything from scratch rather than using LangChain or LlamaIndex — wanted to understand what's actually happening inside these systems.
 
