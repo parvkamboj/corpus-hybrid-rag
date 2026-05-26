@@ -65,7 +65,6 @@ POST /query/stream        → same but streams tokens as SSE
 ```
 
 ---
-
 ## Evaluation
 
 Once you've ingested some documents, update `eval/golden.yaml` with real queries and run:
